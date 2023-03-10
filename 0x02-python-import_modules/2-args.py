@@ -7,5 +7,5 @@ if __name__ == "__main__":
     num_arguments = len(arguments)
 
     print("{} arguments.".format(num_arguments))
-    for arg in arguments:
-        print("{}: {}".format((arguments.index(arg) + 1), arg))
+    for i in range(len(arguments)):
+        print("{}: {}".format(i + 1, arguments[i]))
