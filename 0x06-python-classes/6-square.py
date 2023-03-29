@@ -1,13 +1,17 @@
 #!/usr/bin/python3
+"""Define a square"""
 
 class Square:
+    """Represents a square"""
 
     def __init__(self, size=0, position=(0, 0)):
+        """Initialize a square"""
         self.__size = size
         self.__position = position
 
     @property
     def size(self):
+        """Retrieve the value of size"""
         return self.__size
 
     @size.setter
@@ -21,6 +25,10 @@ class Square:
 
     @property
     def position(self):
+        """property of the coordinates of this Square
+        Raises:
+            TypeError: if value != a tuple of 2 integers < 0
+        """
         return self.__position
 
     @position.setter
