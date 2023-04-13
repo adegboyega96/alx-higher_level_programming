@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """This module adds all argumes to a python list
 and then save to a file """
+
+
 import sys
 
 if __name__ == "__main__":
