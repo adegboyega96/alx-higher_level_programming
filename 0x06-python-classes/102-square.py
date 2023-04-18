@@ -3,16 +3,20 @@
 
 
 class Square:
+    """Create a square class"""
 
     def __init__(self, size=0):
+        """Initializes square class"""
         self.__size = size
 
     @property
     def size(self):
+        """Getter for square"""
         return self.__size
 
     @size.setter
     def size(self, value):
+        """Initializes attribute size """
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
         elif value < 0:
