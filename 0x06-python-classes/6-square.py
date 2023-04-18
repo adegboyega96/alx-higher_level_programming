@@ -45,7 +45,7 @@ class Square:
 
     def area(self):
         """Calculate area of the square Returns: The square of the size"""
-        return self.__size ** 2
+        return (self.__size ** 2)
 
     def my_print(self):
         """Prints square"""
@@ -55,7 +55,8 @@ class Square:
             for i in range(self.position[1]):
                 print()
             for row in range(self.__size):
-                print(" " * self.__position[0], end="")
+                for pox in range(self.position[0]):
+                    print(" ", end="")
                 for column in range(self.__size):
                     print("#", end="")
                 print()
