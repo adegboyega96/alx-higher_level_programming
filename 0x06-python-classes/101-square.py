@@ -57,7 +57,7 @@ class Square:
     def __str__(self):
         """Prints square"""
         if self.__size == 0:
-            return
+            return ""
         else:
             str = "\n" * self.__position[1]
             for row in range(self.__size):
