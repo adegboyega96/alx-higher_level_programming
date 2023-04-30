@@ -1,1 +1,1 @@
-## 0x0A. Python - Inheritance
+# Solution to tasks on Python - Inheritance
