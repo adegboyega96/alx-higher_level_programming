@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Ractangle module"
+"""Ractangle module"""
+
 
 
 class Rectangle:
@@ -56,11 +57,11 @@ class Rectangle:
         if self.__width == 0 or self.__height == 0:
             return ""
         else:
-            str = ""
+            rectangle = ""
             for rows in range(self.__height):
-                str += "#" * self.__width
-                str += "\n"
-            return str
+                rectangle += "#" * self.__width
+                rectangle += "\n"
+            return rectangle
 
     def __repr__(self):
         """String representation"""
