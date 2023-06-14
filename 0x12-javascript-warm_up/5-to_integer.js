@@ -8,6 +8,6 @@ if (process.argv.length > 2)
     }
     else
     {
-        console.log("My number: " + Math.floor(process.argv[2]));
+        console.log("My number: " + parseInt(process.argv[2]));
     }
 }
