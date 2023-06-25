@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""All cities by state"""
+
 import MySQLdb
 import sys
 
